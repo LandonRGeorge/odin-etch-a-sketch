@@ -38,7 +38,7 @@ const fillSketchContainer = function (gridSize = 16) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  let value = 50
+  let value = 16
   changeSliderLabel(value)
   changeSizeSlider(value)
   fillSketchContainer(value)
@@ -55,6 +55,3 @@ gridSizeSlider.addEventListener('input', (e) => {
 sketchBtnClear.addEventListener("click", () => {
   resetSketchContainer()
 });
-
-
-// fillSketchContainer();

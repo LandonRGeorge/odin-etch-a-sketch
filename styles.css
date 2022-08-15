@@ -25,6 +25,10 @@ body {
   border: 1px solid black;
 }
 
+.sketch-item {
+  border: 0.1px solid lightgray;
+}
+
 .selected {
   background-color: black;
 }
